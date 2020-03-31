@@ -1,0 +1,27 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "this is a burger app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omiinaya/burger.git"
+  },
+  "keywords": [
+    "huh"
+  ],
+  "author": "Omar Minaya",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/omiinaya/burger/issues"
+  },
+  "homepage": "https://github.com/omiinaya/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0",
+    "mysql": "^2.18.1"
+  }
+}
