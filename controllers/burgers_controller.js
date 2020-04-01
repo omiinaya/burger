@@ -17,8 +17,8 @@ router.get("/", function(req, res) {
     burger.insertOne([
       "burger_name", "devoured"
     ], [
-      req.body.name, false
-    ], function(result) {
+      req.body.burger_name, req.body.devoured
+    ], function(res) {
         res.render('index');
     });
   });
