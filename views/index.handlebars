@@ -24,7 +24,6 @@
         <li>
           <h5>{{this.id}}. {{this.burger_name}}
             <button type='submit' class="status-btn" data-id="{{this.id}}" data-status="{{this.devoured}}">Devour!</button>
-            </form>
           </h5>
         </li>
         {{/unless}}
@@ -41,7 +40,9 @@
         {{#each burgers}}
         {{#if this.devoured}}
         <li>
-          <h5>{{this.id}}. {{this.burger_name}}</h5>
+          <h5>{{this.id}}. {{this.burger_name}}
+          <!--<button type='submit' class="status-btn" data-id="{{this.id}}" data-status="{{this.devoured}}">Delete Burger</button>-->
+          </h5>
         </li>
         {{/if}}
         {{/each}}
