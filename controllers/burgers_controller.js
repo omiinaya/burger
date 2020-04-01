@@ -6,7 +6,7 @@ var router = express.Router();
 router.get("/", function(req, res) {
     burger.selectAll(function(data) {
       var hbsObject = {
-        burger: data
+        burgers: data
       };
       console.log(hbsObject);
       res.render("index", hbsObject);
@@ -19,7 +19,7 @@ router.get("/", function(req, res) {
     ], [
       req.body.name, false
     ], function(result) {
-        res.redirect('/index');
+        res.render('index');
     });
   });
   
