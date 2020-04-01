@@ -1,0 +1,8 @@
+<li>
+	{{this.id}}. {{this.burger_name}}
+	<div class="form-inline">
+		<button class="status-btn btn btn-danger btn-sm" data-id="{{this.id}}" data-status="{{this.devoured}}">
+			{{#if this.devoured}} No thanks! {{else}} Devour! {{/if}}
+		</button>
+	</div>
+</li>
